@@ -25,7 +25,7 @@
             </div>
             <div>Post a Job</div>
         </nav>
-        <main class="mt-10 max-w-[986px]">
+        <main class="mt-8 max-w-[986px] m-auto">
             {{ $slot }}
         </main>
 

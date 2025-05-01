@@ -1,24 +1,37 @@
 <x-layout>
-    <section>
-        <h3 class="mb-6">Top Jobs</h3>
-        <div class="p-4 bg-white/5 rounded-xl flex flex-col  text-center">
-            <div class=" self-start text-sm">Google</div>
-            <div class="py-8 font-bold">
-                <h3>Frontend Developer</h3>
-                <p>Full Time - From $120,000</p>
+    <div class="space-y-10">
+        <section>
+            <x-section-heading>Featured Jobs</x-section-heading>
+            <div class="grid lg:grid-cols-3 gap-8 mt-6">
+                <x-job-card />
+                <x-job-card />
+                <x-job-card />
             </div>
-            <div class="flex justify-between items-center mt-auto">
-                <div>
-                    <a href="#"
-                        class="bg-white/10 hover:bg-white/25 px-3 py-1 rounded-xl text-sm transition-colors duration-300">Tag</a>
-                    <a href="#"
-                        class="bg-white/10 hover:bg-white/25 px-3 py-1 rounded-xl text-sm transition-colors duration-300">Tag</a>
-                    <a href="#"
-                        class="bg-white/10 hover:bg-white/25 px-3 py-1 rounded-xl text-sm transition-colors duration-300">Tag</a>
 
-                </div>
-                <img class="rounded-xl" src="https://place-hold.it/50/50" alt="">
+        </section>
+        <section>
+            <x-section-heading>Tags</x-section-heading>
+            <div class="mt-6 space-x-1"><x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
+                <x-tag>Tag</x-tag>
             </div>
-        </div>
-    </section>
+
+        </section>
+        <section>
+            <x-section-heading>Latest Jobs</x-section-heading>
+            <div class="space-y-6 mt-6">
+                <x-job-card-wide />
+                <x-job-card-wide />
+                <x-job-card-wide />
+            </div>
+        </section>
+    </div>
+
 </x-layout>
