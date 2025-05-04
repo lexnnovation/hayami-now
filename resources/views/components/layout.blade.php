@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class=" bg-black text-white">
+<body class=" bg-black text-white font-sans">
 
     <div class="px-10">
         <nav class="flex justify-between items-center py-4 border-b border-white/10">
@@ -23,7 +23,8 @@
                 <a href="">Salaries</a>
                 <a href="">Companies</a>
             </div>
-            <div>Post a Job</div>
+            <a href="https://google.com"><x-section-heading class="text-sm">Post a Job</x-section-heading></a>
+
         </nav>
         <main class="mt-8 max-w-[986px] m-auto">
             {{ $slot }}

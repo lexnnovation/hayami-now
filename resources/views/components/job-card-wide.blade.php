@@ -1,18 +1,18 @@
 <div class="p-4 bg-white/5 rounded-xl flex  gap-6">
     <div>
-        <img src="https://place-hold.it/90/90" class="rounded-xl" alt="">
+        <x-employer-logo />
     </div>
-    <div class="flex-1">
-        <a class=" self-start text-sm">Google</a>
-        <h3>Frontend Developer</h3>
-        <p>Full Time - From $120,000</p>
+    <div class="flex-1 flex flex-col">
+        <a class=" self-start text-sm text-gray-400">Google</a>
+        <h3 class=" font-bold text-xl">Frontend Developer</h3>
+        <p class="text-gray-400 mt-auto text-sm">Full Time - From $120,000</p>
     </div>
-    <div class="flex flex-col justify-between">
-        <div class="flex text-xs gap-1 justify-end">
+    <div class="flex flex-col">
+        <div class="flex text-xs justify-end gap-3">
             <p>Remote</p>
-            <p>12h</p>
+            <p class="text-gray-400">{{ rand(0, 15) }}m ago</p>
         </div>
-        <div class="flex justify-end">
+        <div class="mt-auto gap-1">
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
