@@ -1,10 +1,10 @@
-<div class="p-4 bg-white/5 rounded-xl flex  gap-6">
+<x-panel class="flex gap-x-6">
     <div>
         <x-employer-logo />
     </div>
     <div class="flex-1 flex flex-col">
         <a class=" self-start text-sm text-gray-400">Google</a>
-        <h3 class=" font-bold text-xl">Frontend Developer</h3>
+        <h3 class=" font-bold text-xl group-hover:text-blue-600 transition-colors duration-300">Frontend Developer</h3>
         <p class="text-gray-400 mt-auto text-sm">Full Time - From $120,000</p>
     </div>
     <div class="flex flex-col">
@@ -19,4 +19,4 @@
         </div>
 
     </div>
-</div>
+</x-panel>
