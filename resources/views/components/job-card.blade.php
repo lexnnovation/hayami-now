@@ -4,11 +4,13 @@
         <h3 class="text-xl font-bold group-hover:text-blue-600 transition-colors duration-300">Frontend Developer</h3>
         <p class="text-sm mt-4">Full Time - From $120,000</p>
     </div>
-    <div class="flex justify-between items-center mt-auto">
-        <div>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
-            <x-tag>Tag</x-tag>
+    <div class="flex justify-between items-center ">
+        <div class="flex justify-start gap-1">
+            <x-tag size="small">PremierPro</x-tag>
+            <x-tag size="small">Photoshop</x-tag>
+            <x-tag size="small">AE</x-tag>
+
+
         </div>
         <x-employer-logo :width="40" />
     </div>

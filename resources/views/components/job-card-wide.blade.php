@@ -8,11 +8,11 @@
         <p class="text-gray-400 mt-auto text-sm">Full Time - From $120,000</p>
     </div>
     <div class="flex flex-col">
-        <div class="flex text-xs justify-end gap-3">
+        <div class="flex text-xs justify-end gap-4">
             <p>Remote</p>
             <p class="text-gray-400">{{ rand(0, 15) }}m ago</p>
         </div>
-        <div class="mt-auto gap-1">
+        <div class="flex mt-auto gap-2">
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
             <x-tag>Tag</x-tag>
