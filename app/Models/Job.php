@@ -11,6 +11,16 @@ class Job extends Model
 {
     /** @use HasFactory<\Database\Factories\JobFactory> */
     use HasFactory;
+    // App\Models\Job.php
+    protected $fillable = [
+        'employer_id',
+        'title',
+        'salary',
+        'location',
+        'work_type',
+        'url',
+        'featured',
+    ];
 
     public function tag(string $name)
     {
